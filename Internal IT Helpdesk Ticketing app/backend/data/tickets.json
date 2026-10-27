@@ -1,0 +1,364 @@
+[
+  {
+    "id": 1,
+    "title": "Laptop won't boot",
+    "description": "My laptop shows a black screen after the logo. Fan runs but nothing else happens.",
+    "category": "hardware",
+    "priority": "high",
+    "status": "open",
+    "requester": "u1",
+    "comments": []
+  },
+  {
+    "id": 2,
+    "title": "VPN disconnects every 10 minutes",
+    "description": "Working from home, the VPN drops roughly every 10 minutes and I have to reconnect.",
+    "category": "network",
+    "priority": "medium",
+    "status": "in_progress",
+    "requester": "u1",
+    "comments": [
+      {
+        "author": "a1",
+        "text": "Can you tell me which VPN client version you have?"
+      },
+      {
+        "author": "u1",
+        "text": "Version 5.2.1."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Request access to Finance shared drive",
+    "description": "I moved to the finance team and need read access to the Finance shared drive.",
+    "category": "access",
+    "priority": "low",
+    "status": "open",
+    "requester": "u1",
+    "comments": []
+  },
+  {
+    "id": 4,
+    "title": "Outlook keeps asking for password",
+    "description": "Outlook prompts for my password every few minutes since I changed it yesterday.",
+    "category": "email",
+    "priority": "medium",
+    "status": "resolved",
+    "requester": "u1",
+    "comments": [
+      {
+        "author": "a2",
+        "text": "Cleared cached credentials and re-added the profile."
+      },
+      {
+        "author": "u1",
+        "text": "Works now, thanks."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Monitor flickering",
+    "description": "External monitor flickers when connected through the docking station.",
+    "category": "hardware",
+    "priority": "low",
+    "status": "open",
+    "requester": "u1",
+    "comments": []
+  },
+  {
+    "id": 6,
+    "title": "Install Adobe Acrobat Pro",
+    "description": "Need Acrobat Pro to edit contract PDFs. Manager approval attached.",
+    "category": "software",
+    "priority": "low",
+    "status": "in_progress",
+    "requester": "u1",
+    "comments": [
+      {
+        "author": "a2",
+        "text": "License requested, waiting on procurement."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cannot print to 3rd floor printer",
+    "description": "Print jobs go to the queue and then disappear. Other people on my floor have the same issue.",
+    "category": "hardware",
+    "priority": "medium",
+    "status": "open",
+    "requester": "u2",
+    "comments": []
+  },
+  {
+    "id": 8,
+    "title": "Wi-Fi very slow in conference room B",
+    "description": "Video calls freeze in conference room B. Speed test shows under 2 Mbps.",
+    "category": "network",
+    "priority": "high",
+    "status": "in_progress",
+    "requester": "u2",
+    "comments": [
+      {
+        "author": "a1",
+        "text": "Access point in room B looks overloaded. Checking with network team."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Password reset for HR portal",
+    "description": "Locked out of the HR portal after too many attempts.",
+    "category": "access",
+    "priority": "medium",
+    "status": "resolved",
+    "requester": "u2",
+    "comments": [
+      {
+        "author": "a1",
+        "text": "Account unlocked and temporary password sent by SMS."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Excel crashes with large files",
+    "description": "Excel closes without warning when opening a 150 MB workbook.",
+    "category": "software",
+    "priority": "medium",
+    "status": "open",
+    "requester": "u2",
+    "comments": []
+  },
+  {
+    "id": 11,
+    "title": "Shared mailbox not visible",
+    "description": "The support@ shared mailbox disappeared from my Outlook sidebar.",
+    "category": "email",
+    "priority": "medium",
+    "status": "open",
+    "requester": "u2",
+    "comments": []
+  },
+  {
+    "id": 12,
+    "title": "Need second monitor",
+    "description": "Requesting a second monitor for my desk, ticket approved by manager.",
+    "category": "hardware",
+    "priority": "low",
+    "status": "open",
+    "requester": "u2",
+    "comments": []
+  },
+  {
+    "id": 13,
+    "title": "Suspicious email received",
+    "description": "I got an email asking me to verify my bank details, it looks like phishing. I did not click anything.",
+    "category": "email",
+    "priority": "high",
+    "status": "in_progress",
+    "requester": "u3",
+    "comments": [
+      {
+        "author": "a2",
+        "text": "Thanks for reporting. Security team is blocking the sender."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Teams camera not detected",
+    "description": "Camera works in other apps but Teams says no camera found.",
+    "category": "software",
+    "priority": "medium",
+    "status": "open",
+    "requester": "u3",
+    "comments": []
+  },
+  {
+    "id": 15,
+    "title": "Request admin rights for Python install",
+    "description": "Need to install Python and VS Code for a data project. Cannot install without admin rights.",
+    "category": "access",
+    "priority": "medium",
+    "status": "open",
+    "requester": "u3",
+    "comments": []
+  },
+  {
+    "id": 16,
+    "title": "Laptop battery drains in 1 hour",
+    "description": "Battery goes from 100% to 0% in about an hour. Laptop is 3 years old.",
+    "category": "hardware",
+    "priority": "medium",
+    "status": "open",
+    "requester": "u3",
+    "comments": []
+  },
+  {
+    "id": 17,
+    "title": "Cannot connect to office Wi-Fi",
+    "description": "Phone connects but my laptop says 'cannot connect to this network' since the OS update.",
+    "category": "network",
+    "priority": "high",
+    "status": "resolved",
+    "requester": "u3",
+    "comments": [
+      {
+        "author": "a1",
+        "text": "Forgot network and rejoined with updated certificate."
+      },
+      {
+        "author": "u3",
+        "text": "Connected, thanks."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Software update stuck at 40%",
+    "description": "Windows update has been at 40% for 3 hours.",
+    "category": "software",
+    "priority": "low",
+    "status": "open",
+    "requester": "u3",
+    "comments": []
+  },
+  {
+    "id": 19,
+    "title": "Account locked after travel",
+    "description": "Logged in from abroad and now my account is locked.",
+    "category": "access",
+    "priority": "high",
+    "status": "in_progress",
+    "requester": "u4",
+    "comments": [
+      {
+        "author": "a2",
+        "text": "Verifying identity, will unlock shortly."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Keyboard keys not working",
+    "description": "Several keys (E, R, T) stopped responding on my laptop keyboard.",
+    "category": "hardware",
+    "priority": "medium",
+    "status": "open",
+    "requester": "u4",
+    "comments": []
+  },
+  {
+    "id": 21,
+    "title": "Zoom license expired",
+    "description": "Zoom shows I am on the free plan with 40 minute limit.",
+    "category": "software",
+    "priority": "low",
+    "status": "open",
+    "requester": "u4",
+    "comments": []
+  },
+  {
+    "id": 22,
+    "title": "Email delivery delay",
+    "description": "Emails to external clients arrive 1-2 hours late.",
+    "category": "email",
+    "priority": "high",
+    "status": "open",
+    "requester": "u4",
+    "comments": []
+  },
+  {
+    "id": 23,
+    "title": "VPN not working on mobile",
+    "description": "VPN app on my phone fails with 'authentication error'.",
+    "category": "network",
+    "priority": "medium",
+    "status": "open",
+    "requester": "u4",
+    "comments": []
+  },
+  {
+    "id": 24,
+    "title": "Docking station not charging laptop",
+    "description": "Docking station powers the monitors but the laptop battery does not charge.",
+    "category": "hardware",
+    "priority": "medium",
+    "status": "open",
+    "requester": "u1",
+    "comments": []
+  },
+  {
+    "id": 25,
+    "title": "Request access to Jira project ALPHA",
+    "description": "Need Jira access to project ALPHA to track my tasks.",
+    "category": "access",
+    "priority": "low",
+    "status": "resolved",
+    "requester": "u2",
+    "comments": [
+      {
+        "author": "a1",
+        "text": "Access granted."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Browser keeps redirecting to ads",
+    "description": "Chrome opens random ad pages. Might be malware.",
+    "category": "software",
+    "priority": "high",
+    "status": "open",
+    "requester": "u3",
+    "comments": []
+  },
+  {
+    "id": 27,
+    "title": "Mailbox almost full",
+    "description": "Outlook says my mailbox is 98% full. Need more space or archive.",
+    "category": "email",
+    "priority": "low",
+    "status": "open",
+    "requester": "u4",
+    "comments": []
+  },
+  {
+    "id": 28,
+    "title": "Ethernet port dead at desk 4B",
+    "description": "Wall port at desk 4B has no link light. Laptop works at other desks.",
+    "category": "network",
+    "priority": "medium",
+    "status": "open",
+    "requester": "u4",
+    "comments": []
+  },
+  {
+    "id": 29,
+    "title": "Slack notifications not showing",
+    "description": "No desktop notifications from Slack since last week.",
+    "category": "software",
+    "priority": "low",
+    "status": "open",
+    "requester": "u1",
+    "comments": []
+  },
+  {
+    "id": 30,
+    "title": "Lost company phone",
+    "description": "I lost my company phone yesterday. Need it locked and a replacement.",
+    "category": "hardware",
+    "priority": "high",
+    "status": "in_progress",
+    "requester": "u2",
+    "comments": [
+      {
+        "author": "a2",
+        "text": "Remote lock sent, wipe scheduled. Replacement being ordered."
+      }
+    ]
+  }
+]

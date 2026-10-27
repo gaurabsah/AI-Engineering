@@ -1,0 +1,9 @@
+[
+  { "id": "u1", "name": "Asha Rao", "role": "employee" },
+  { "id": "u2", "name": "Ben Carter", "role": "employee" },
+  { "id": "u3", "name": "Chen Wei", "role": "employee" },
+  { "id": "u4", "name": "Dina Okafor", "role": "employee" },
+  { "id": "a1", "name": "Eli Moreno (Agent)", "role": "agent" },
+  { "id": "a2", "name": "Fatima Noor (Agent)", "role": "agent" },
+  { "id": "ad1", "name": "Grace Liu (Admin)", "role": "admin" }
+]
